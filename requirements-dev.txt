@@ -1,0 +1,19 @@
+-r requirements.txt
+
+# Development Tools
+ipython==8.21.0
+ipdb==0.13.13
+
+# Code Quality
+pylint==3.0.3
+bandit==1.7.6
+safety==3.0.1
+
+# Testing Tools
+pytest-xdist==3.5.0
+pytest-timeout==2.2.0
+locust==2.20.1
+
+# Documentation
+sphinx==7.2.6
+sphinx-rtd-theme==2.0.0

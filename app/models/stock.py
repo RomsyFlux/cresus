@@ -17,5 +17,5 @@ class Stock(Base):
     sector = Column(String(100), nullable=True)
     industry = Column(String(100), nullable=True)
     market_cap = Column(BigInteger, nullable=True)
-    metadata = Column(JSON, default={})
+    stock_metadata = Column(JSON, default={})
     last_updated = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
